@@ -1,5 +1,6 @@
-BitcoinAutoNode
+BitcoinAutoNode-UASF
 ===============
+Forked to support BIP-148
 
 A script to run (ideally just after starting up a new server/vps) to automatically setup `bitcoind` and have it start on boot.
 
@@ -10,7 +11,7 @@ It has been tested on Ubuntu Server 14.04 and 15.04. It is intended for use only
 One Liner
 ---------
 
-    wget https://raw.github.com/XertroV/BitcoinAutoNode/master/bitcoinAutoNode.sh ; sudo bash bitcoinAutoNode.sh
+    wget https://raw.github.com/benthompson2001/BitcoinAutoNode-UASF/master/bitcoinAutoNode.sh ; sudo bash bitcoinAutoNode.sh
 
 You should really check out the code before running that though.
 
@@ -18,7 +19,7 @@ You should really check out the code before running that though.
 
 If you want to run one command then disconnect (nearly) straight away, use this:
 
-    wget https://raw.github.com/XertroV/BitcoinAutoNode/master/stub.sh ; sudo bash stub.sh ; exit
+    wget https://raw.github.com/benthompson2001/BitcoinAutoNode-UASF/master/stub.sh ; sudo bash stub.sh ; exit
 
 It should drop the connection once it's started. You can view the setup with `screen -r bitcoinInstaller` and detach (when viewing) with `Ctrl+a d`.
 
