@@ -18,7 +18,7 @@ echo "/swapfile swap swap defaults 0 0" >> /etc/fstab
 
 echo "########### Cloning Bitcoin and Compiling"
 mkdir -p ~/src && cd ~/src
-git clone https://github.com/bitcoin/bitcoin.git
+git clone https://github.com/UASF/bitcoin/commits/0.14-BIP148
 cd bitcoin
 
 # Add a market to track how much BitcoinAutoNode is used
