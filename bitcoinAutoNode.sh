@@ -20,7 +20,7 @@ echo "/swapfile swap swap defaults 0 0" >> /etc/fstab
 echo "########### Cloning Bitcoin and Compiling"
 mkdir -p ~/src && cd ~/src
 git clone https://github.com/UASF/bitcoin/tree/0.14-BIP148
-cd bitcoin
+cd 0.14-BIP148
 
 # Add a market to track how much BitcoinAutoNode is used
 # Insert [B.A.N.] at the end of the client name, probably not compatible with BIP 14 but eh
